@@ -1,0 +1,287 @@
+#page {
+    margin: 10px;
+    position: relative;
+    padding: 5px;
+    display: grid;
+    background-color: #efefef;
+    background-image: Asset 5.png;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background-logo {
+    display: block;
+    left: 35%;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    opacity: .2;
+}
+
+nav {
+    display: flexbox;
+    position: relative;
+    border-bottom: 5px double #AB729F;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav .logo {
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+nav .logo:hover {
+    height: 85px;
+    width: 85px;
+}
+
+.nav-elements li {
+    display: inline-flex;
+    padding: 5px;
+}
+
+#projects {
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #AB729F;
+    border-left: 1px solid #AB729F;
+}
+
+.open {
+    cursor: pointer;
+    color: #2D1674;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 3px;
+    border-right: 1px solid #AB729F;
+}
+
+.open:hover {
+    color: #AB729F;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+    color: #2D1674;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.one-liner {
+    display: flexbox;
+    float: left;
+    width: 45%;
+    margin: 10px;
+    color: #2D1674;
+    font-size: 20px;
+    padding: 25px;
+    border-right: 1px solid #AB729F;
+}
+
+.services {
+    display: flexbox;
+    width: 45%;
+    margin: 10px;
+    list-style: none;
+    color: #2D1674;
+}
+
+.about-us {
+    margin: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #AB729F;
+    display: inline-flex;
+    position: relative;
+    color: #2D1674;
+    font-size: 20px; 
+}
+
+.intro-title {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-right: 1px solid #AB729F;
+}
+
+.austin {
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+
+.derrick {
+    margin: 10px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.image {
+    position: relative;
+    float: right;
+    height: 80px;
+    width: 80px;
+    background-color: #2D1674;
+    border: 1px solid #AB729F;
+    border-radius: 50%;
+}
+
+.image:hover {
+    height: 85px;
+    width: 85px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    display: flexbox;
+    border-top: 5px double #AB729F;
+    border-radius: 5px;
+    text-align: center;
+    color: #2D1674;
+}
+
+
+.footer-elements li {
+    display: inline-flex;
+    margin: 10px;
+}
+
+a {
+    color: #2D1674;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AB729F; 
+}
+
+.email-icon {
+    cursor: pointer;
+}
+
+.email-icon:hover {
+    color: #AB729F; 
+}
+.services-container {
+    float: right;
+    color: #2D1674;
+    font-size: 20px;
+}
+
+#instagram-icon {
+    font-size: 24px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    display: none;
+    
+}
+
+.modal-content {
+    width: 55%;
+    height: 55%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #AB729F;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #2D1674;
+    overflow: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal-header {
+    height: 150px;
+    width: 175px;
+    background-color: #2D1674;
+    border: 1px solid #AB729F;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.modal-header:hover {
+    height: 160px;
+    width: 185px;
+}
+
+.submit {
+    color: #2D1674;
+    border-radius: 15px;
+    border: 1px solid #AB729F;
+    margin-top: 5px;
+    
+}
+
+.submit:hover {
+    background-color: #AB729F;
+    height: 20px;
+    width: 60px;
+}
+
+
+
+form {
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+input:hover {
+    border: 1px solid #AB729F;
+}
+
+textarea:hover {
+    border: 1px solid #AB729F;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #AB729F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
